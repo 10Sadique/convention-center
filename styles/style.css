@@ -39,8 +39,17 @@ body {
     width: 100%;
   }
 
-  .carousel-inner img {
-    height: 80vh;
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+  }
+
+  .banner {
+    height: 90vh;
+    /* overflow: hidden; */
   }
 }
 
