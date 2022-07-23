@@ -48,6 +48,10 @@ body {
     width: 100%;
   }
 
+  .center {
+    border-radius: 0px 0px 10px 10px;
+  }
+
   .banner {
     height: 90vh;
   }
