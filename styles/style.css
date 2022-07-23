@@ -14,6 +14,15 @@ body {
   margin: 0 auto 16px;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  border-radius: 0px 0px 5px 5px;
+}
 
 /* Media Queries */
 /* xs */
@@ -39,17 +48,8 @@ body {
     width: 100%;
   }
 
-  .center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    overflow: hidden;
-  }
-
   .banner {
     height: 90vh;
-    /* overflow: hidden; */
   }
 }
 
