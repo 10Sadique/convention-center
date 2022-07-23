@@ -1,4 +1,69 @@
+/* Utilities */
 body {
   background-color: #E5E5E5;
   color: #3E3E3E;
+  font-family: 'Poppins', sans-serif;
 }
+
+
+/* Header Section */
+
+
+.carousel-caption p {
+  width: 60%;
+  margin: 0 auto 16px;
+}
+
+
+/* Media Queries */
+/* xs */
+@media screen and (max-width:575px) {
+  .navbar-brand {
+    font-size: 18px !important;
+  }  
+
+  .navbar-brand span {
+    display: block;
+  }
+
+  .carousel-caption {
+    left: 5%;
+    right: 5%;
+  }
+
+  .carousel-caption h5 {
+    font-size: 32px;
+  }
+
+  .carousel-caption p {
+    width: 100%;
+  }
+
+  .carousel-inner img {
+    height: 80vh;
+  }
+}
+
+/* sm */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .carousel-caption p {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/* lg */
+@media screen and (min-width: 992px) {
+  .carousel-inner img {
+    width: 100%;
+  }
+
+  .carousel-caption h5 {
+    font-size: 48px;
+    font-weight: 600;
+  }
+}
+
