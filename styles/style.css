@@ -141,7 +141,7 @@ footer {
 
   /* Footer */
 
-  .container p {
+  .footer__p {
     width: 80%;
     text-align: center;
   }
