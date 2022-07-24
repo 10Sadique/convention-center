@@ -24,9 +24,24 @@ body {
   border-radius: 0px 0px 5px 5px;
 }
 
+/* Intro */
+.card {
+  background-color: #E5E5E5;
+  border: none;
+}
+
+.toast {
+  border-radius: 0;
+}
+
+.toast-container {
+  background-color: transparent !important;
+}
+
 /* Media Queries */
 /* xs */
 @media screen and (max-width:575px) {
+  /* Header */
   .navbar-brand {
     font-size: 18px !important;
   }  
@@ -54,6 +69,11 @@ body {
 
   .banner {
     height: 90vh;
+  }
+
+  /* Intro */
+  .intro .row {
+    flex-direction: column-reverse;
   }
 }
 
