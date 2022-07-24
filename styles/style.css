@@ -72,6 +72,19 @@ body {
   right: -10px;
 }
 
+/* Testimonial */
+
+.accordion-item {
+  background-color: #E5E5E5;
+  border: 1.4px solid #acb7c7 !important;
+  box-shadow: 0;
+  border-radius: 5px;
+}
+
+.accordion-item .accordion-button {
+  color: #3E3E3E;
+}
+
 
 /* Media Queries */
 /* xs */
