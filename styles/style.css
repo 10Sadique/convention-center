@@ -38,6 +38,41 @@ body {
   background-color: transparent !important;
 }
 
+
+/* Packages */
+.pink {
+  background-color: hsla(322, 81%, 77%, 0.1);
+}
+
+.pink:hover {
+  background-color: hsla(322, 81%, 77%, 0.418);
+}
+
+.highlight {
+  box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+}
+
+.blue {
+  background-color: #3F87F5;;
+}
+
+.hover-effect {
+  transition: all .3s;
+}
+
+.hover-effect:hover { 
+  background-color: #3E3E3E !important;
+  color: #E5E5E5 !important;
+}
+
+.watermark {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: -10px;
+}
+
+
 /* Media Queries */
 /* xs */
 @media screen and (max-width:575px) {
@@ -79,13 +114,20 @@ body {
 
 /* sm */
 @media screen and (min-width: 576px) and (max-width: 767px) {
+  /* Navbar */
   .carousel-caption p {
     width: 100%;
   }
+
+  /* Packages */
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  
+  /* Packages */
+  .container {
+    max-width: 760px;
+  }
 }
 
 /* lg */
