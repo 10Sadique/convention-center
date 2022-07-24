@@ -5,6 +5,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+footer {
+  background-color: #0B0D17;
+  color: #E5E5E5;
+}
 
 /* Header Section */
 
