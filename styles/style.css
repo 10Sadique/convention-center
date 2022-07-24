@@ -76,6 +76,14 @@ footer {
   right: -10px;
 }
 
+.hot {
+  background-color: #FF4E4E;
+  padding: 6px 12px;
+  position: absolute;
+  top: -15px;
+  right: 15px;
+}
+
 /* Testimonial */
 
 .accordion-item {
