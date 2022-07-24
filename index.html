@@ -28,31 +28,33 @@
     <!-- Header -->
     <header>
       <!-- Navbar -->
-      <section class="container my-4">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <a class="navbar-brand fs-4 fw-bold" href="#">Abacus <span>Convention Center</span></a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link text-dark fw-semibold" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark fw-semibold" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark fw-semibold" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-dark fw-semibold" href="#">Subscribe</a>
-                </li>
-              </ul>
+      <section>
+        <div class="container my-4">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand fs-4 fw-bold" href="#">Abacus <span>Convention Center</span></a>
+              <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark fw-semibold" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark fw-semibold" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark fw-semibold" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark fw-semibold" href="#">Subscribe</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </nav>
+          </nav>
+        </div>
       </section>
 
       <!-- Image Slider -->
@@ -75,7 +77,7 @@
                 <p class="fw-thin lead">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit.
                 </p>
-                <a class="btn btn-light text-primary px-4 fw-bold mb-3" href="#">
+                <a id="liveToastBtn" class="btn btn-light text-primary px-4 fw-bold mb-3" href="#">
                   Book Now
                 </a>
               </div>
@@ -91,7 +93,7 @@
                 <p class="fw-thin lead">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit.
                 </p>
-                <a class="btn btn-light text-primary px-4 fw-bold mb-3" href="#">
+                <a id="liveToastBtn" class="btn btn-light text-primary px-4 fw-bold mb-3" href="#">
                   Book Now
                 </a>
               </div>
@@ -107,7 +109,7 @@
                 <p class="fw-thin lead">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit.
                 </p>
-                <a class="btn btn-light text-primary px-4 fw-bold mb-3" href="#">
+                <a id="liveToastBtn" class="btn btn-light text-primary px-4 fw-bold mb-3" href="#">
                   Book Now
                 </a>
               </div>
@@ -141,7 +143,7 @@
                 <div class="card-body">
                   <h1 class="card-title fw-bold">Every moment is Precious </h1>
                   <p class="card-text fw-bolder">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                  <button type="button" class="btn btn-primary rounded rounded-0 fw-bold" id="liveToastBtn">Explore our album<i class="fa-solid fa-arrow-right ps-2"></i></button>
+                  <button type="button" class="btn btn-primary rounded rounded-0 fw-bold">Explore our album<i class="fa-solid fa-arrow-right ps-2"></i></button>
 
                   <div class="toast-container position-fixed top-50 end-0 p-3">
                     <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
@@ -161,7 +163,26 @@
       </section>
 
       <!-- Package Section -->
-      <section>Package</section>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-2 col-md-4 col-lg-3">
+              <div class="card mb-4 rounded-3 shadow-sm shadow-none">
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title fw-bold">$300</h1>
+                  <h3 class="card-title pricing-card-title fw-bold">Business fair</h3>
+                  <p class="text-secondary">For most businesses event 
+                    like book fair, craft fair.</p>
+                  <ul class="list-unstyled mt-3 mb-4 text-secondary">
+                    <li>limited space access</li>
+                  </ul>
+                  <button type="button" class="w-100 btn btn-lg btn-primary rounded rounded-pill">Choose plan</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- Testimonial -->
       <section>Testimonial</section>
