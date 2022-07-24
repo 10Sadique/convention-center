@@ -138,6 +138,13 @@ footer {
   .intro .row {
     flex-direction: column-reverse;
   }
+
+  /* Footer */
+
+  .container p {
+    width: 80%;
+    text-align: center;
+  }
 }
 
 /* sm */
